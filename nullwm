@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+setxkbmap jp
+exec xterm -xrm '*.allowWindowOps:true' -bg black -fg gray -bd green -geometry 160x32+0+0 -name login -e /usr/bin/bash
+#exec xterm -xrm '*.allowWindowOps:true' -bg black -fg gray -bd green -geometry 160x24+0+0 -name GSDE-Safe-Mode -e "$0" --safe-mode-continue

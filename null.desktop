@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=X Desktop
+Comment=This session logs you into plain X window system
+Exec=/usr/local/bin/nullwm
+# no icon yet, only the top three are currently used
+Icon=
+Keywords=GNUstep Desktop
+Type=Application
